@@ -1,0 +1,31 @@
+local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
+local Player = game.Player.LocalPlayer
+local GUI = Mercury:Create{
+    Name = "items asylum | Zector v0.5",
+    Size = UDim2.fromOffset(600, 410),
+    Theme = Mercury.Themes.Legacy,
+    Link = "https://github.com/deeeity/mercury-lib"
+}
+
+_G.key = "2nr882vr8r92br9wy11v2i394vt8371bdi29"
+
+GUI:Credit{
+	Name = "EXLexploti",
+	Description = "Credit",
+	Discord = "https://discord.gg/6Tng5gXcph"
+}
+
+GUI:Credit{
+	Name = "StarSprint",
+	Description = "Helped of script"
+}
+
+GUI:Credit{
+	Name = "GGaura",
+	Description = "Helped of script"
+}
+
+local Tab1 = GUI:Tab{
+	Name = "hello",
+	Icon = "rbxassetid://8569322835"
+}
