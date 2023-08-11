@@ -1,5 +1,4 @@
 local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
-local Player = game.Player.LocalPlayer
 local GUI = Mercury:Create{
     Name = "items asylum | Zector v0.5",
     Size = UDim2.fromOffset(600, 410),
